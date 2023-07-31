@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Buisnessapplication.BL.Admin">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAACCAAAAAAAAAAAiAgAACAAIAAAgAAAABAAQAAAA=</HashCode>
+      <FileName>BL\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buisnessapplication.BL.BookBL" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAwEACCIBAAAAFAYACAAAAAACAAAAAAAAICEA=</HashCode>
+      <FileName>BL\BookBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.Books_LocationBL" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAADCAAiAAAAAAAIAAAAAAAAAAAAgAAiACIRAAAA=</HashCode>
+      <FileName>BL\Books_LocationBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.BudgetBL" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAADABAAAAFAAAQBUAAAAAQAAAAAAAAhAAAAQABABAA=</HashCode>
+      <FileName>BL\BudgetBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.CustomerBL" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgADAAAIAAAACAEAACAQAAAAIAAAACAAAAAAAAAIA=</HashCode>
+      <FileName>BL\CustomerBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buisnessapplication.BL.EmployeeBL" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAgAAAIAAQgAAACAAACAAAABAAAAAA=</HashCode>
+      <FileName>BL\EmployeeBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserBL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.IventoryBL" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAGAAICAEAAAAAAAAACAAAAgACgIAAgAAAAAAA=</HashCode>
+      <FileName>BL\InventoryBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.Manager_BL">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAiIBMoCIEwAACAAKAIIAASQDCAACAAQAAAoBAAgAA=</HashCode>
+      <FileName>BL\Manager_BL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buisnessapplication.BL.Manager_EventsBL" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAEAgECAAAAAAAAAAAAAgABADAgAEACA=</HashCode>
+      <FileName>BL\Manager_EventsBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.Manager_LibraryStaff_BL" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgiACAAAAAAAAAAAAEAAAAAALAAgAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>BL\Manager_LibraryStaff_BL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.MeetingBL" Collapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARABABAGQAEAAAgAAAAAAAACAAAAAACgCAAAAQAAAAA=</HashCode>
+      <FileName>BL\MeetingBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.MonthyReportBL" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhIAAAFBABwAAAAACIAAAAAAAACwAAAAAQBAAAA=</HashCode>
+      <FileName>BL\MonthyReportBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Manager_BL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.NoticesBL" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAgBEIAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>BL\NoticesBL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Buisnessapplication.BL.UserBL">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAABAAAAAAAIABAAAAgEAABAAAAEAgAAAIA=</HashCode>
+      <FileName>BL\UserBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
